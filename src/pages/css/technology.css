@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Barlow:wght@100&family=Bellefair&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Barlow Condensed;
+}
+
+.tech-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('src/assets/technology/background-technology-desktop.jpg');
+    padding-top: 25px; 
+}
+
+.tech-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 80px;
+}
+
+.tech-navbar-line{
+    z-index: 100;
+    height: 1px;
+    width: 50%;
+    background-color: #FFF;
+    opacity: 0.25;
+    transform: translateX(40px);
+}
+
+.tech-navbar img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.tech-menu{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    padding-left: 100px;
+    backdrop-filter: blur(40px) brightness(1.6);
+    /* background-image: linear-gradient(to right,rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.135));  */
+}
+
+.tech-menu li{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    height: 100%;
+    transition: border 0.1s linear;
+    cursor: pointer;
+}
+
+.tech-menu li:hover{
+    border-bottom: solid 2px #ffffff83;
+}
+
+.dest-heading{
+    margin-top: 100px;
+    margin-left: 150px;
+    font-weight: normal;
+    display: flex;
+    gap: 10px;
+    font-size: 28px;
+}
+
+.dest-heading b{
+    opacity: 0.25;
+    font-weight: 900;
+}
+
+.tech-hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0 60px;
+    padding-left: 150px;
+    /* background-color: blue; */
+    height: 72%;
+}
+
+.tech-info{
+    width: 470px;
+}
+
+.tech-info h1{
+    font-size: 55px;
+    font-family: Bellefair;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.tech-info h2{
+    font-size: 16px;
+    font-weight: normal;
+    color: #D0D6F9;
+}
+
+.tech-info p{
+    font-size: 18px;
+    font-family: Barlow;
+    font-weight: normal;
+    color: #D0D6F9;
+}
+
+.tech-left{
+    display: flex;
+    gap: 20px;
+    /* background-color: blue; */
+}
+
+.tech-img-container0{
+    background-image: url('src/assets/technology/image-launch-vehicle-portrait.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 400px;
+    height: 100%;
+}
+
+.tech-img-container1{
+    background-image: url('src/assets/technology/image-spaceport-portrait.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 400px;
+    height: 100%;
+}
+
+.tech-img-container2{
+    background-image: url('src/assets/technology/image-space-capsule-portrait.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 400px;
+    height: 100%;
+}
+
+.tech-circle-container{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    height: 100%;
+}
+
+.tech-circle{
+    border: 1px solid rgba(255, 255, 255, 0.389);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Bellefair;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.tech-circle-active{
+    background-color: white;
+    color: black;
+}

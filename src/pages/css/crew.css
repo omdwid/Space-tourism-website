@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Barlow:wght@100&family=Bellefair&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Barlow Condensed;
+}
+
+.crew-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('src/assets/crew/background-crew-desktop.jpg');
+    padding-top: 25px; 
+}
+
+.crew-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 80px;
+}
+
+.crew-navbar-line{
+    z-index: 100;
+    height: 1px;
+    width: 50%;
+    background-color: #FFF;
+    opacity: 0.25;
+    transform: translateX(40px);
+}
+
+.crew-navbar img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.crew-menu{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    padding-left: 100px;
+    backdrop-filter: blur(40px) brightness(1.35);
+    /* background-image: linear-gradient(to right,rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.135));  */
+}
+
+.crew-menu li{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    height: 100%;
+    transition: border 0.1s linear;
+    cursor: pointer;
+}
+
+.crew-menu li:hover{
+    border-bottom: solid 2px #ffffff83;
+}
+
+.dest-heading{
+    margin-top: 100px;
+    margin-left: 150px;
+    font-weight: normal;
+    display: flex;
+    gap: 10px;
+    font-size: 28px;
+}
+
+.dest-heading b{
+    opacity: 0.25;
+    font-weight: 900;
+}
+
+.crew-hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0 60px;
+    padding-left: 150px;
+    /* background-color: blue; */
+    height: 72%;
+}
+
+.crew-info{
+    width: 450px;
+}
+
+.crew-info h1{
+    font-size: 55px;
+    font-family: Bellefair;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.crew-info h2{
+    font-size: 32px;
+    font-family: Bellefair;
+    font-weight: normal;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+.crew-info p{
+    font-size: 18px;
+    font-family: Barlow;
+    font-weight: normal;
+    color: #D0D6F9;
+}
+
+.img-container0{
+    background-image: url('src/assets/crew/image-douglas-hurley.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 500px;
+    height: 100%;
+}
+
+.img-container1{
+    background-image: url('src/assets/crew/image-mark-shuttleworth.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 500px;
+    height: 100%;
+}
+
+.img-container2{
+    background-image: url('src/assets/crew/image-victor-glover.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 500px;
+    height: 100%;
+}
+.img-container3{
+    background-image: url('src/assets/crew/image-anousheh-ansari.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 500px;
+    height: 100%;
+}
+
+.circle-container{
+    margin-top: 100px;
+    display: flex;
+    gap: 10px;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.opacity-one{
+    opacity: 1;
+}
